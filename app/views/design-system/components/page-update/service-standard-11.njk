@@ -1,0 +1,157 @@
+{% extends "layouts/app-layout.njk" %}
+
+{% set pageTitle = "11. Choose the right tools and technology" %}
+{% set subSection = "NHS service standard" %}
+{% set pageDescription = "Choose tools and technology that let you build a good service in an efficient, cost effective way" %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    items: [
+      {
+        href: "#",
+        text: "Home"
+      }
+    ]
+  }) }}
+{% endblock %}
+
+{% block bodyContent %}
+
+<div class="nhsuk-grid-row">
+  <div class="nhsuk-grid-column-full">
+
+
+  <p class="nhsuk-lede-text app-lede-text">Build a sustainable service which allows you to change direction in future.</p>
+
+  <h2>Why it's important</h2>
+  <p>When you make a decision about technology, you're making a significant investment. The choices you make will have a huge impact on your ability to create, iterate and operate the service in a flexible, sustainable way.</p>
+
+  <h2>What you should do</h2>
+  <p>When considering technical architecture, choice of programming languages, development toolchain and other technology choices, your team should be able to show that you:</p>
+  <ul>
+    <li>use appropriate tools and technologies to create and operate a good service in a cost effective way – for example, by automating things where possible</li>
+    <li>use HTML5 by default</li>
+    <li>have made good decisions about what technology to reuse or build and what to buy, including use of common platforms where appropriate</li>
+    <li>understand how the technology you use works, including emerging technologies and artificial intelligence (AI)</li>
+    <li>understand tech decisions that have been made outside your team and challenge these decisions where it will improve the service</li>
+    <li>understand total cost of ownership of the technology and have kept the ability to make different choices in future – for example, reducing the chances of getting locked into contracts for specific tools and suppliers by using open standards</li>
+    <li>encourage team members to challenge existing processes and re-use resources</li>
+    <li>use standard NHS technology components where possible, for example: the <a href="/standards-and-technology/technology/NHS-login">NHS login</a> to authenticate identity and the <a href="/standards-and-technology/technology/personal-demographics-service-PDS">Personal Demographics Service (PDS)</a> to manage patient demographic data</li>
+    <li>have an effective approach to managing any legacy technology the service integrates with or depends on</li>
+    <li>consider how the technology will affect user experience and inclusion – for example, avoid situations where your technology choices might reduce the reliability of information given to users or decisions made about them</li>
+    <li>use the <a href="https://www.digitalregulations.innovation.nhs.uk/">AI and Digital Regulations Service website</a> to help you make decisions about buying digital healthcare technologies</li>
+  </ul>
+
+  <h2>Guidance</h2>
+
+  <h3>NHS service manual</h3>
+  <ul>
+    <li><a href="/standards-and-technology/technology/NHS-login">NHS login</a></li>
+    <li><a href="/standards-and-technology/technology/personal-demographics-service-PDS">Personal Demographics Service (PDS)</a></li>
+  </ul>
+  <h3>GOV.UK resources</h3>
+  <ul>
+    <li><a href="https://www.gov.uk/service-manual/technology/using-progressive-enhancement">Building a resilient frontend using progressive enhancement</a></li>
+    <li><a href="https://www.gov.uk/service-manual/technology/choosing-technology-an-introduction">Choosing technology: an introduction</a></li>
+    <li><a href="https://www.gov.uk/service-manual/design/environmentally-sustainable-services">Environmentally sustainable services</a></li>
+    <li><a href="https://www.gov.uk/guidance/make-your-technology-sustainable">Make your technology sustainable</a></li>
+    <li><a href="https://www.gov.uk/guidance/managing-legacy-technology">Managing legacy technology</a></li>
+    <li><a href="https://www.gov.uk/service-manual/agile-delivery/retiring-your-service">Retiring your service</a></li>
+    <li><a href="https://www.security.gov.uk/policy-and-guidance/secure-by-design/">Secure by design</a></li>
+    <li><a href="https://www.gov.uk/government/publications/technology-code-of-practice">Technology code of practice</a></li>
+    <li><a href="https://www.gov.uk/service-manual/technology/using-artificial-intelligence-ai-in-services">Using artificial intelligence (AI) in services</a></li>
+    <li><a href="https://www.gov.uk/service-manual/technology/commercial-off-the-shelf-products-and-services">Using commercial-off-the-shelf (COTS) products and services</a></li>
+    <li><a href="https://www.gov.uk/service-manual/technology/working-with-open-standards">Working with open standards</a></li>
+  </ul>
+
+  <h3>Read more about this</h3>
+  <ul>
+    <li><a href="https://digital.nhs.uk/developer/architecture/principles/deliver-sustainable-services">All digital services need to be delivered sustainably – part of NHS architecture principles (NHS England)</a></li>
+    <li><a href="https://www.gov.uk/government/publications/code-of-conduct-for-data-driven-health-and-care-technology/initial-code-of-conduct-for-data-driven-health-and-care-technology">A guide to good practice for digital and data-driven health technologies</a> (Department of Health and Social Care)</li>
+    <li><a href="https://developer.nhs.uk/">Developer and integration hub</a> (NHS England)</li>
+    <li><a href="https://digital.nhs.uk/data-and-information/information-standards/governance/latest-activity/standards-and-collections/dapb3051-identity-verification-and-authentication-standard-for-digital-health-and-care-services">DAPB3051: Identity verification and authentication standard for health and care digital, data, analytics and technology use (NHS England, previously DCB3051)</a></li>
+    <li><a href="https://greenerservices.github.io/">Sustainable by design: greener service principles</a>, produced by Defra and other government departments</li>
+    <li><a href="https://w3c.github.io/sustainableweb-wsg/">Web sustainability guidelines (W3C)</a></li>
+  </ul>
+
+
+<h2 class="nhsuk-u-padding-top-4">Help us improve this guidance</h2>
+
+<p>Share insights or feedback and take part in the discussion. We use GitHub as a collaboration space. All the information on it is open to the public.</p>
+<p>If you've gone through a service assessment or peer review, we're especially interested to hear from you.</p>
+
+<a class="nhsuk-action-link nhsuk-u-margin-top-1" href="https://github.com/nhsuk/nhsuk-service-manual-backlog/issues/354">
+  <svg class="nhsuk-icon nhsuk-icon--arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" focusable="false" aria-hidden="true">
+    <path d="M12 2a10 10 0 0 0-10 9h11.7l-4-4a1 1 0 0 1 1.5-1.4l5.6 5.7a1 1 0 0 1 0 1.4l-5.6 5.7a1 1 0 0 1-1.5 0 1 1 0 0 1 0-1.4l4-4H2A10 10 0 1 0 12 2z"></path>
+  </svg>
+  <span class="nhsuk-action-link__text">Feed back or share insights on GitHub</span>
+</a>
+
+
+<p>Read more about <a href="/community-and-contribution/feed-back-or-share-insights">how to feed back or share insights</a>.</p>
+<p>If you have any questions, <a href="/get-in-touch">get in touch</a> with the service manual team.</p>
+
+
+  <nav class="nhsuk-pagination" role="navigation" aria-label="Pagination">
+  <ul class="nhsuk-list nhsuk-pagination__list">
+    <li class="nhsuk-pagination-item--previous">
+      <a class="nhsuk-pagination__link nhsuk-pagination__link--prev" href="/standards-and-technology/service-standard-points/10-define-what-success-looks-like-and-be-open-about-how-your-service-is-performing" rel="prev">
+        <span class="nhsuk-pagination__title">
+          Previous<span class="nhsuk-u-visually-hidden"> page</span>
+        </span>
+        <span class="nhsuk-u-visually-hidden">:</span>
+        <span class="nhsuk-pagination__page">Point 10</span>
+        <svg class="nhsuk-icon nhsuk-icon--arrow-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" focusable="false" aria-hidden="true">
+          <path d="M10.7 6.3c.4.4.4 1 0 1.4L7.4 11H19a1 1 0 0 1 0 2H7.4l3.3 3.3c.4.4.4 1 0 1.4a1 1 0 0 1-1.4 0l-5-5A1 1 0 0 1 4 12c0-.3.1-.5.3-.7l5-5a1 1 0 0 1 1.4 0Z"></path>
+        </svg>
+      </a>
+    </li>
+    <li class="nhsuk-pagination-item--next">
+      <a class="nhsuk-pagination__link nhsuk-pagination__link--next" href="/standards-and-technology/service-standard-points/12-make-new-source-code-open" rel="next">
+        <span class="nhsuk-pagination__title">
+          Next<span class="nhsuk-u-visually-hidden"> page</span>
+        </span>
+        <span class="nhsuk-u-visually-hidden">:</span>
+        <span class="nhsuk-pagination__page">Point 12</span>
+        <svg class="nhsuk-icon nhsuk-icon--arrow-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" focusable="false" aria-hidden="true">
+          <path d="m14.7 6.3 5 5c.2.2.3.4.3.7 0 .3-.1.5-.3.7l-5 5a1 1 0 0 1-1.4-1.4l3.3-3.3H5a1 1 0 0 1 0-2h11.6l-3.3-3.3a1 1 0 1 1 1.4-1.4Z"></path>
+        </svg>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+
+<p class="nhsuk-body-s nhsuk-u-secondary-text-colour">Updated: February 2026 - <a href="javascript:void(0)" onclick="toggleContent(this, 'content1')">See all updates</a></p>
+
+            <div id="content1" style="display:none; margin-top: 40px">
+        <p class="nhsuk-body-m nhsuk-u-secondary-text-colour"><strong>February 2026</strong></p>
+        <p class="nhsuk-body-s nhsuk-u-secondary-text-colour">Updated to follow GOV.UK and be clearer that understanding technologies includes understanding AI technologies. Service teams are also now required to assess the impact of technologies on user experience, inclusion, and the reliability of information and decisions.</p>
+        <p class="nhsuk-body-m nhsuk-u-secondary-text-colour"><strong>January 2026</strong></p>
+        <p class="nhsuk-body-s nhsuk-u-secondary-text-colour">Updated and added links.</p>
+        <p class="nhsuk-body-m nhsuk-u-secondary-text-colour"><strong>May 2025</strong></p>
+        <p class="nhsuk-body-s nhsuk-u-secondary-text-colour">Updated link to information standard DAPB3051, previously DCB3051.</p>
+        <p class="nhsuk-body-m nhsuk-u-secondary-text-colour"><strong>April 2025</strong></p>
+        <p class="nhsuk-body-s nhsuk-u-secondary-text-colour">Added a new bullet point about use of resources to reflect our design principle about protecting the environment, with related links.</p>
+        <p class="nhsuk-body-m nhsuk-u-secondary-text-colour"><strong>January 2024</strong></p>
+        <p class="nhsuk-body-s nhsuk-u-secondary-text-colour">Added link to the AI and Digital Regulations Service.</p>
+      </div>
+
+      <script>
+      function toggleContent(linkElement, contentId) {
+        var content = document.getElementById(contentId);
+
+        if (content.style.display === "none") {
+        content.style.display = "block";
+        linkElement.innerHTML = "Hide all updates"; 
+       } else {
+        content.style.display = "none";
+        linkElement.innerHTML = "Show all updates"; 
+        }
+      } 
+      </script>
+
+</div>
+
+
+{% endblock %}
