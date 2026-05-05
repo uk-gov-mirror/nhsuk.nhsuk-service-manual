@@ -1,5 +1,12 @@
 # NHS digital service manual Changelog
 
+## TBC
+
+:wrench: **Maintenance**
+
+- Update intro to service standard 2 on service standard home page
+- Fix typo in service standard 12
+
 ## 8.10.0 - 21 April 2026
 
 :new: **New features**
